@@ -33,8 +33,8 @@ tableData.forEach(function(ufo){
         // use text to insert data to each cell
         var cell = row.append("td").text(value);
     });
-});```
-
+});
+```
 - - -
 
 ### Dataset
