@@ -1,10 +1,21 @@
-# JavaScript Challenge - JavaScript and DOM Manipulation
+# UFO Sighting - JavaScript and DOM Manipulation
 
-### Level 1: Automatic Table and Date Search
+## Table of Contents
+* [Objective](#Objective)
+* [Technologies](#Technologies)
+* [ETL](#ETL)
+* [Visualization](#Visualization)
+* [Troubleshooting](#Troubleshooting)
 
-* Create a basic HTML web page or use the [index.html](StarterCode/index.html) file provided.
-![website_screenshot.png](website_screenshot.png)
+<img src="website_screenshot.png" width=300 align=right>
 
+# Objective | Create a Database Utilizing ETL on Music Dataset
+* Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to an HTMl page and then adds new rows of data for each UFO sighting.
+* Using multiple `input` tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings.
+
+### Objective 1: Automatic Table and Date Search
+
+* Create a basic HTML web page or alter the [index.html](StarterCode/index.html) file provided.
 * Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to your web page and then adds new rows of data for each UFO sighting.
 
 ```
@@ -20,12 +31,12 @@ tableData.forEach(function(ufo){
     });
 });
 ```
-  * Make sure you have a column for `date/time`, `city`, `state`, `country`, `shape`, and `comment` at the very least.
+  * Include a column for `date/time`, `city`, `state`, `country`, `shape`, and `comment`.
 
 * Use a date form in your HTML document and write JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
 
 
-### Level 2: Multiple Search Categories
+### Objective 2: Multiple Search Categories
 
 * Complete all of Level 1 criteria.
 
