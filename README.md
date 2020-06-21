@@ -9,7 +9,7 @@
 
 <img src="website_screenshot.png" width=300 align=right>
 
-# Objective | Create a Database Utilizing ETL on Music Dataset
+# Objective | Create Automated Table with Multiple Category Search Function
 * Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to an HTMl page and then adds new rows of data for each UFO sighting.
 * Using multiple `input` tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings.
 
