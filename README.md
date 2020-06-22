@@ -47,7 +47,6 @@ button.on("click", function(){
     tbody.html("");
 '''
 
-
 ### Objective 2: Multiple Search Categories
 
 * Using multiple `input` tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
