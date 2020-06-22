@@ -3,11 +3,7 @@
 ## Table of Contents
 * [Objective](#Objective)
 * [Technologies](#Technologies)
-* [ETL](#ETL)
 * [Visualization](#Visualization)
-* [Troubleshooting](#Troubleshooting)
-
-<img src="website_screenshot.png" width=400 align=right>
 
 # Objective | Create Automated Table with Multiple Category Search Function
 * Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to an HTMl page and then adds new rows of data for each UFO sighting.
@@ -83,7 +79,9 @@ button.on("click", function(){
 * CSS
 * Javascript
 
-# ETL
+# Visualization
+
+<img src="website_screenshot.png" width=100% align=center>
 
 - - -
 
