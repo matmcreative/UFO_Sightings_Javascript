@@ -30,6 +30,23 @@ tableData.forEach(function(ufo){
 
 * Use a date form in HTML document and write JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
 
+```
+button.on("click", function(){
+    // select the input element and get the html node
+    var inputElement = d3.select(".form-control");
+    // get the value property of the input element
+    var inputDate = inputElement.property("value");
+    //console.log(inputDate)
+    // filter data for the date value to get data that is searched for
+    var filteredData = tableData.filter(ufo => ufo.datetime === inputDate);
+    //console.log(filteredData);
+
+    // select the table body to insert table rows and cells
+    var tbody = d3.select("tbody")
+    // clean the table body to insert selected date values
+    tbody.html("");
+'''
+
 
 ### Objective 2: Multiple Search Categories
 
