@@ -45,8 +45,7 @@ button.on("click", function(){
     var tbody = d3.select("tbody")
     // clean the table body to insert selected date values
     tbody.html("");
-'''
-
+```
 ### Objective 2: Multiple Search Categories
 
 * Using multiple `input` tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
